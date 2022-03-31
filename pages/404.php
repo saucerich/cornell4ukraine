@@ -1,5 +1,6 @@
 <?php
-$title="Page Not Found"
+$main = 'hidden';
+$missing = '';
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +20,7 @@ $title="Page Not Found"
       <!-- Source: Kyle Harms -->
       <main>
         <h1>Page Not Found</h1>
-          <p class="cover-p" >Sorry! The page you're looking for does not exist. Feel free to navigate to one of our other pages</p>
+          <p class="cover-p" >Sorry! The page you're looking for does not exist. Please navigate to one of our other pages</p>
       </main>
     </div>
 </body>
