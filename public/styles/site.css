@@ -4,18 +4,18 @@ body, html {
 
 nav a {
   text-decoration: none;
+  font-family: Copperplate, Papyrus, fantasy;
 }
 
 nav {
-  font-family: monaco, monospace;
   justify-content: flex-end;
   align-items: center;
   margin-right: 15px;
 }
 
 .cover-image {
-  /* Source: Kyle Harms */
-  background:  url(/public/images/commons.jpg);
+  /* Source: https://www.theguardian.com/uk-news/2022/mar/27/march-in-support-of-ukraine-in-london-everything-was-turning-blue-and-yellow */
+  background:  url(/public/images/protest.png);
   background-size: cover;
   height: 35em;
   display: flex;
@@ -25,16 +25,16 @@ nav {
 
 .cover-image h1 {
   font-size: 70px;
-  color: black;
-  text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+  color: white;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
 }
 
 nav ul li a:link, nav ul li a:visited {
-  color: #fff;
+  color: black;
 }
 
 nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
-  color: #3bff83;
+  background-color: #f6cf03;
 }
 
 nav ul {
@@ -63,18 +63,19 @@ nav ul li a {
 
 header {
   display: flex;
-  background-color: #ba2222;
+  background-color: white;
   flex-direction: row;
   justify-content: space-between;
   position: sticky;
   top: 0px;
+  border-bottom: 3px inset black;
 }
 
 h1 {
+  font-family: Copperplate, Papyrus, fantasy;
   margin-left: 15px;
   text-align: center;
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: black;
 }
 
 h2 {
@@ -119,8 +120,8 @@ ul {
 }
 
 .not-found {
-  /* Source: Kyle Harms */
-  background:  url(/public/images/commons.jpg);
+  /* Source: https://www.theguardian.com/uk-news/2022/mar/27/march-in-support-of-ukraine-in-london-everything-was-turning-blue-and-yellow */
+  background:  url(/public/images/protest.png);
   background-size: cover;
   height: 35em;
   width: 100%;

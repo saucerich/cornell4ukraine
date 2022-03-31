@@ -1,5 +1,5 @@
 <?php
-$title='Welcome to the Ithaca Apple Festival';
+$title='Cornell Stands With Urkaine';
 ?>
 <!DOCTYPE html>
 <html lang="en">
