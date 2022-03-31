@@ -1,0 +1,191 @@
+body, html {
+  margin:0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: monaco, monospace;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.cover-image {
+  /* Source: Kyle Harms */
+  background:  url(/public/images/commons.jpg);
+  background-size: cover;
+  height: 35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cover-image h1 {
+  font-size: 70px;
+  color: black;
+  text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  color: #fff;
+}
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #3bff83;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  flex-grow: 1;
+}
+
+nav ul li a {
+  font-size: 20px;
+  display: block;
+  border: 1px solid;
+  padding: .5em 1em;
+  border-radius: .5em;
+  margin: .25em;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  background-color: #ba2222;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+
+h1 {
+  margin-left: 15px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h2 {
+  font-family: monaco, monospace;
+  font-weight: normal;
+  font-size: 1.8em;
+  border-bottom: 3px solid;
+}
+
+h3 {
+  color: #ba2222;
+  font-family: monaco, monospace;
+  font-weight: normal;
+  font-size: 1.5em;
+  border-bottom: 2px solid;
+  margin-bottom: 1em;
+  border-color: #ba2222;
+}
+
+.everything {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: Helvetica, serif;
+}
+
+p a {
+  font-family: Helvetica, serif;
+  color: green;
+}
+
+ul {
+  font-family: Helvetica, serif;
+}
+
+.qna {
+  font-size: 1em;
+  border-bottom: 1px solid;
+  margin-bottom: 1em;
+}
+
+.not-found {
+  /* Source: Kyle Harms */
+  background:  url(/public/images/commons.jpg);
+  background-size: cover;
+  height: 35em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.not-found main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found main p {
+  margin-left: 15px;
+  text-align: center;
+  color: black;
+  font-size:30px;
+  background-color: white;
+  width: 60%;
+  padding: 5px;
+}
+
+@media (min-width: 900px) {
+  .main_content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2%;
+  }
+
+  aside {
+    width: 150%;
+    background-color: #bee2b3;
+    padding: 2em;
+  }
+
+  nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      list-style-type: none;
+  }
+
+  aside h3 {
+    color: black;
+    font-family: monaco, monospace;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-bottom: 0px solid;
+  }
+
+  aside h2 {
+    border-bottom: 0px solid;
+  }
+
+  .date_head {
+    font-size: 1em;
+  }
+
+}
